@@ -351,7 +351,7 @@ The project uses SQL techniques such as:
 
 ---
 
-## ## 📁 Python Analysis Output
+## 📁 Python Analysis Output
 
 The `output/` folder contains selected analytical results exported from the Python notebook. These CSV files make summary tables easier to review and reuse.
 
@@ -362,7 +362,7 @@ The `output/` folder contains selected analytical results exported from the Pyth
 | [employment_and_wages.csv](./output/employment_and_wages.csv) | Employment and wage analysis |
 | [budget_and_expenditure.csv](./output/budget_and_expenditure.csv) | Budget and expenditure analysis |
 | [work_completion_analysis.csv](./output/work_completion_analysis.csv) | Work completion indicators |
-| [women_sc_participation.csv](./output/output/women_sc_st_participation.csv) | Women, SC, and ST participation analysis |
+| [women_sc_participation.csv](./output/women_sc_st_participation.csv) | Women, SC, and ST participation analysis |
 | [top_10_states_active_workers.csv](./output/top_10_states_active_workers.csv) | Top 10 states by active workers |
 
 These files support further review of state-wise and district-wise results.
