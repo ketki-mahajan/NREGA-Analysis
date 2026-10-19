@@ -73,14 +73,9 @@ NREGA-Analysis/
 
 ## 📂 Dataset
 
-The project uses an NREGA dataset containing information about job cards, workers, employment, wages, budgets, expenditure, and work-related indicators.
+The project uses an NREGA dataset containing information about job cards, workers, employment, wages, budgets, and expenditure.
 
-| File Name | Description |
-|---|---|
-| `NREGA Data.csv` | Original NREGA dataset |
-| `NREGA_Analysis.ipynb` | Python analysis notebook |
-| `NREGA_sql.sql` | SQL analysis queries |
-| `NREGA_Dashboard.pbix` | Power BI dashboard report |
+- **Dataset:** [NREGA Data.csv](./Dataset/NREGA%20Data.csv)
 
 ## 📈 Power BI Dashboard
 
@@ -172,8 +167,6 @@ Together, these pages demonstrate the use of Power BI to organize employment-rel
 **Report file:** `NREGA_Dashboard.pbix`
 
 [Open the Power BI report](<Power Bi/NREGA_Dashboard.pbix>)
-
-The report can be opened using Microsoft Power BI Desktop. The link works when the report file is uploaded at the specified location in the repository.
 
 ---
 
@@ -271,8 +264,6 @@ Selected summary tables were exported to CSV files for reuse, review, and integr
 
 [View the Python analysis notebook](Python/NREGA_Analysis.ipynb)
 
-The notebook contains the Python workflow for exploring the dataset, preparing the data, analyzing employment indicators, creating summaries, and exporting results.
-
 ---
 
 ## 🗄️ SQL Analysis
@@ -358,27 +349,23 @@ The project uses SQL techniques such as:
 
 [View the SQL analysis script](SQL/NREGA_sql.sql)
 
-The SQL script contains the queries used for exploring and summarizing the NREGA data. The link assumes that the file is saved in the `SQL/` folder with this exact name.
-
 ---
 
-## 📁 Python Analysis Output
+## ## 📁 Python Analysis Output
 
-The `output/` folder is intended to contain selected analytical results exported from the Python notebook. These CSV files make summary tables easier to review and reuse.
+The `output/` folder contains selected analytical results exported from the Python notebook. These CSV files make summary tables easier to review and reuse.
 
 | File | Description |
 |---|---|
-| `state_wise_summary.csv` | Summary of selected indicators by state |
-| `top_10_districts_active_workers.csv` | Top 10 districts by active workers |
-| `employment_and_wages.csv` | Employment and wage analysis |
-| `budget_and_expenditure.csv` | Budget and expenditure analysis |
-| `work_completion_analysis.csv` | Work completion indicators |
-| `women_sc_st_participation.csv` | Women, SC, and ST participation analysis |
-| `top_10_states_active_workers.csv` | Top 10 states by active workers |
+| [state_wise_summary.csv](./output/state_wise_summary.csv) | Summary of selected indicators by state |
+| [top_10_districts_active_workers.csv](./output/top_10_districts_active_workers.csv) | Top 10 districts by active workers |
+| [employment_and_wages.csv](./output/employment_and_wages.csv) | Employment and wage analysis |
+| [budget_and_expenditure.csv](./output/budget_and_expenditure.csv) | Budget and expenditure analysis |
+| [work_completion_analysis.csv](./output/work_completion_analysis.csv) | Work completion indicators |
+| [women_sc_participation.csv](./output/women_sc_participation.csv) | Women, SC, and ST participation analysis |
+| [top_10_states_active_workers.csv](./output/top_10_states_active_workers.csv) | Top 10 states by active workers |
 
-These files are intended to support further review of state-wise and district-wise results.
-
-**Note:** Include these files in the repository only if they have been generated and uploaded.
+These files support further review of state-wise and district-wise results.
 
 ## 🔍 Key Analysis Areas
 
